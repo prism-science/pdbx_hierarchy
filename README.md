@@ -10,6 +10,8 @@ coexist. `pdbx_hierarchy` adds two tables to the standard PDBx/mmCIF format to
 capture that structure, and gives you a [gemmi](https://gemmi.readthedocs.io/)-friendly
 API plus a CLI to work with them.
 
+Note, this does not work with historical PDB files, only with mmCIF files. 
+
 ## The hierarchy extension
 
 Two additional categories are layered on top of standard mmCIF:
